@@ -32,7 +32,9 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 2rem;
 }
+
 
 .btn {
   padding: 1rem 3rem;
@@ -53,6 +55,13 @@ section {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.primary-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--grey-color);
+  margin: 1rem 0;
 }
 
 /* Navbar */
@@ -180,4 +189,27 @@ section {
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--grey-color);
+}
+
+/* collection */
+.collection-title {
+  text-align: center;
+}
+
+.collection-title h2 {
+  font-size: 2rem;
+}
+
+.collection-items {
+  margin-top: 4rem;
+}
+
+.collection-col img {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+
+.collection-col p {
+  text-align: center;
 }
