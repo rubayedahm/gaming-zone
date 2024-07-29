@@ -29,7 +29,7 @@ img {
 
 /* Shared styles */
 .container {
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -50,6 +50,7 @@ img {
   margin-right: 1rem;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .gradient-title {
@@ -265,6 +266,45 @@ img {
 
 .second-playground .secondary-img {
   position: absolute;
-  right: -8rem;
+  right: -7rem;
   bottom: -2rem;
+}
+
+/* careers */
+.careers {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.careers h3 {
+  font-size: 2rem;
+}
+
+.careers p {
+  font-size: .8rem;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.careers-list {
+  margin-top: 3rem;
+}
+
+.career-data {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.career-data li {
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.position-btn {
+  background: #fff;
+  color: var(--primary-color);
+  margin-top: 2.5rem;
 }
