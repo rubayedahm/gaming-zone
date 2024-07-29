@@ -308,3 +308,7 @@ img {
   color: var(--primary-color);
   margin-top: 2.5rem;
 }
+
+.careers-img {
+  margin-top: 3rem;
+}
