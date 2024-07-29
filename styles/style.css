@@ -11,7 +11,7 @@
   --secondary-color: #4ec5f7;
   --purple-color: #8758f1;
   --grey-color: #534c64;
-  /* F948B2 */
+  --dark-color: #0B0223;
 }
 
 body {
@@ -311,4 +311,80 @@ img {
 
 .careers-img {
   margin-top: 3rem;
+}
+
+/* Group */
+.group .container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem ;
+  justify-items: center;
+}
+
+.group-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px grey;
+  padding: 1rem 0;
+  width: 20rem;
+  border-radius: 8rem;
+
+}
+
+.group-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.group-item h4 {
+  font-size: 20px;
+}
+
+/* footer  */
+footer {
+  background: var(--dark-color);
+  padding: 4rem 0;
+  color: white;
+}
+
+footer h3 {
+  color: white;
+}
+
+.footer-list-main,
+.footer-social-links,
+.footer-list {
+  list-style: none;
+  display: grid;
+  margin: 2rem 0;
+  justify-items: center;
+}
+
+.footer-list-main,
+.footer-social-links {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-list-main li,
+.footer-social-links li,
+.footer-list li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.footer-social-links li i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.footer-list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer p {
+  text-align: center;
+  line-height: 1.5rem;
 }
