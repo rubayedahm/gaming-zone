@@ -514,6 +514,7 @@ footer p {
 }
 
 /* Laptop devices */
+
 @media screen and (min-width: 1024px) {
   section {
     margin: 12rem 0;
@@ -529,6 +530,10 @@ footer p {
 
   .logo-items ul {
     margin: 0;
+  }
+
+  .banner-content-right {
+    height: 70vh;
   }
 
   .about-col-left {
@@ -555,7 +560,7 @@ footer p {
   }
 
   .second-playground .secondary-img {
-    right: 33rem;
+    right: 42rem;
   }
 
   .group .container {
